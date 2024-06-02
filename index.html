@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculando el total</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="card">
+        <div class="img-card">
+            <h5>Laptop Gamer AMD</h5>
+            <img src="./assets/img/AMD.png" alt="">
+            <div class="container">
+                <p>Precio base: $<span   class="PrecioInicial"></span>
+                </p>
+
+                <p>Cantidad: <span class="Cantidad">0</span>
+                </p>
+                <button  class="boton1" onclick="agregar()">+</button>
+                <button  class="boton2"onclick="remover()">-</button>
+            </div>
+
+            <div class="total-a-pagar">
+                <p>Total a pagar: $ <span class="PrecioTotal"> </span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="funciones.js">
+
+    </script>
+
+</body>
+</html>

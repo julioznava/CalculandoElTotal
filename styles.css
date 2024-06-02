@@ -1,0 +1,51 @@
+
+
+body {
+    background-color: #3D3D3D;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Ubuntu Sans Mono", monospace;
+}
+
+.card {
+    background-color: #7BA238;
+    text-align: center;
+    border-radius: 12px;
+    border: none;
+    padding: 20px;
+    margin: 100px;
+}
+
+h5 {
+    font-size: 25px;
+    color: #F3F3F3;
+}
+
+P {
+    font-size:20px;
+    margin: 10px;
+    color: #F3F3F3;
+}
+
+.boton1 {
+    background-color: #C4EC47;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #3D3D3D;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.boton2 {
+    background-color: #ec4747;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin: 2px;
+}
+
